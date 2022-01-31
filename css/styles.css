@@ -1,0 +1,81 @@
+/* Universal style */
+/* 
+#0dceda - cyan
+#111111 - darkgrey
+#28e6f2 - light cyan
+#0aa0aa - deep cyan
+#2a2a2a - light grey
+#000000 - black
+#cccccc - lighter grey (background)
+ */
+html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #111111;
+}
+
+.flex {
+  display: flex;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+}
+
+@media only screen and (min-width: 420px) {
+}
+
+/* Navbar styling */
+.navbar-mobile {
+  padding: 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0dceda;
+  font-size: 1.5rem;
+  position: fixed;
+  height: 52.8px;
+  left: 0;
+  right: 0;
+  top: 0;
+  
+}
+
+.logo-container-mobile {
+  align-items: center;
+}
+
+.logo-container-mobile .image-container {
+  width: 10%;
+}
+
+.logo-container-mobile img {
+  width: 100%;
+}
+
+.logo-container-mobile p {
+  font-family: "Signika Negative", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+#link-container-mobile {
+  display: block;
+  position: fixed;
+  width: 70%;
+  text-align: left;
+  right: 0;
+  /* left: 0; */
+  height: 100%;
+  top: 52.8px;
+  padding: 1.5rem;
+  background-color: #0dceda;
+}
+
+#link-container-mobile ul li {
+  margin-top: 1.5rem;
+  font-weight: 100;
+}
+
