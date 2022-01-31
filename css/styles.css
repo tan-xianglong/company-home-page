@@ -26,6 +26,31 @@ html {
   display: block;
 }
 
+.button-a {
+  background-color: white;
+  border: 1px solid #0dceda;
+  padding: 1rem 1.875rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  border-radius: 4px;
+  font-size: 1rem;
+  min-width:max-content;
+  cursor: pointer;
+}
+
+.button-b {
+  background-color: #2a2a2a;
+  color: white;
+  border: none;
+  padding: 1rem 1.875rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  border-radius: 4px;
+  font-size: 1rem;
+  min-width: max-content;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 420px) {
 }
 
@@ -62,10 +87,10 @@ html {
 }
 
 #link-container-mobile {
-  display: block;
+  display: none;
   position: fixed;
   width: 70%;
-  text-align: left;
+  text-align: right;
   right: 0;
   /* left: 0; */
   height: 100%;
@@ -77,5 +102,70 @@ html {
 #link-container-mobile ul li {
   margin-top: 1.5rem;
   font-weight: 100;
+}
+
+.navbar-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  .navbar-mobile {
+    display: none;
+  }
+  
+  .navbar-desktop {
+    display: flex;
+    padding: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0dceda;
+    position: fixed;
+    height: 5rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+  }
+
+  .logo-container-desktop {
+    align-items: center;
+  }
+
+  .logo-container-desktop .image-container {
+    width: 10%;
+  }
+
+  .logo-container-desktop img {
+    width: 100%;
+  }
+
+  .logo-container-desktop p {
+    font-family: "Signika Negative", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  #link-container-desktop{
+    width: 60%;
+  }
+
+  #link-container-desktop ul {
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #link-container-desktop ul li {
+    font-weight: 300;
+    margin: 0 1rem;
+    min-width: max-content
+  }
+
+  #link-container-desktop ul li a {
+    padding-bottom: 0.5rem;
+  }
+
+  #link-container-desktop ul li a:hover {
+    border-bottom: solid #111111 1px;
+  }
 }
 
