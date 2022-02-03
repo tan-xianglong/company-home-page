@@ -434,3 +434,63 @@ main {
     margin: 0 auto;
   }
 }
+
+/* About us section */
+.team {
+  max-width: 1200px;
+  padding: 3rem 1rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.team h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.team-flex-container {
+  margin: 2rem 0;
+}
+
+.member {
+  margin: 1rem 0;
+}
+
+.member .image-container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.member img {
+  border-radius: 50%;
+}
+
+.member h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.member p {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 680px) {
+  .team h2 {
+    font-size: 2.5rem;
+  }
+  
+  .team-flex-container {
+    display: flex;
+  }
+
+  .member {
+    padding: 1rem;
+  }
+
+  .member .image-container {
+    width: 70%
+  }
+}
