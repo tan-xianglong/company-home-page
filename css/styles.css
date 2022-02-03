@@ -495,3 +495,38 @@ main {
     width: 70%
   }
 }
+/* footer section */
+footer {
+  background-color: #0dceda;
+}
+
+.footer-section {
+  max-width: 1200px;
+  padding: 3rem 1rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+footer h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 1rem;
+}
+
+footer ul {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 2rem 0;
+  font-size: 12px;
+  font-weight: 300;;
+}
+
+footer hr {
+  width: 100%;
+  margin: 2rem auto;
+  border: 1px solid #9999993b
+}
