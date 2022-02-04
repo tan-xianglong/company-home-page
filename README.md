@@ -1,5 +1,5 @@
 # Responsive Website Demo
-Visit the deployed page here. https://github.com/tan-xianglong/company-home-page
+Visit the deployed page here. https://tan-xianglong.github.io/responsive-home-page/
 
 ## Table of Contents
 * [General Information](#general-information)
