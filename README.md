@@ -3,7 +3,7 @@ Visit the deployed page here. https://github.com/tan-xianglong/company-home-page
 
 ## Table of Contents
 * [General Information](#general-information)
-* [Programming Tools Used](#programming-tools-used)
+* [Language and Tools Used](#language-and-tools-used)
 * [Concepts Used](#concepts-used)
 * [Details](#details)
 
